@@ -528,6 +528,22 @@ img {
     justify-self: center;
 }
 
+.project__button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: .5rem;
+    transition: .3s;
+    background-color: var(--first-color-light);
+    color: var(--first-color);
+
+    &:hover {
+        box-shadow: 0px 5px 8px var(--first-color-dark);
+        transform: translateY(-5px);
+        color: var(--first-color-dark);
+    }
+}
+
 //works
 .works__container {
     justify-items: center;
